@@ -1,0 +1,39 @@
+Video - Part-2
+2.1. (1:58) Create New Project in NetBeans
+Project Name: Employee Payroll
+
+2.2. (2:24) Add JAR/Folder...
+sqlitejdbc-v056.jar
+
+2.3. (2:58) SQLite Manager -> Database -> New Database
+Enter the database name -> mydatabase
+
+2.4. (3:48) Create New Java Class
+package employee.payroll push right button -> New Java Class
+Class Name: db
+
+Video - Part-3
+3.1. (0:25) Create Table in SQLite Manager
+Table Name: Users
+Create Columns
+Column Name - id Data Type - INTEGER Primary Key? Yes Autoinc? Yes Unique? Yes
+Column Name - username Data Type - VARCHAR
+Column Name - password Data Type - VARCHAR
+Column Name - division Data Type - VARCHAR
+
+CREATE TABLE "Users"("id" INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, "username" VARCHAR, "password" VARCHAR, "division" VARCHAR);
+
+3.2 (1:00) Add new row in table Users
+username - Admin
+password - Password
+division - Admin
+
+INSERT INTO "Users"("username", "password", "division") VALUES("Admin", "Password", "Admin");
+
+3.3 (1:25) Add package employee.payroll new Folder
+Folder Name: images
+
+3.4 (1:33) Add package employee.payroll new JFrame Form
+Class Name: login
+
+3.5  
