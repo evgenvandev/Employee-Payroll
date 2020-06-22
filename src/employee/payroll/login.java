@@ -45,7 +45,7 @@ public class login extends javax.swing.JFrame {
         txt_username = new javax.swing.JTextField();
         txt_password = new javax.swing.JTextField();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(800, 512));
 
         jLabel1.setText("Please enter your username and password:");
@@ -127,17 +127,34 @@ public class login extends javax.swing.JFrame {
             pst.setString(3, txt_combo.getSelectedItem().toString());
             
             rs = pst.executeQuery();
+            
+            while(rs.next()){
+                count = count + 1;
+            }
+            
             String access = (txt_combo.getSelectedItem().toString());
             
             if(access == "Admin"){
                 if(count == 1){
                     JOptionPane.showMessageDialog(null, "Success");
-                    
+                     MainMenu j = new MainMenu();
+                     j.setVisible(true);
+                     this.dispose();
+                } else {
+                    JOptionPane.showMessageDialog(null, "Username and Password you entered are wrong!"); 
                 }
             }
             
         } catch(Exception e){
             JOptionPane.showMessageDialog(null, e);
+        }
+        finally{
+            try{
+                rs.close();
+                pst.close();
+            } catch (Exception e){
+                
+            }
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
