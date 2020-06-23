@@ -30,10 +30,58 @@ division - Admin
 
 INSERT INTO "Users"("username", "password", "division") VALUES("Admin", "Password", "Admin");
 
-3.3 (1:25) Add package employee.payroll new Folder
+3.3 (1:25) Add in package employee.payroll new Folder
 Folder Name: images
 
-3.4 (1:33) Add package employee.payroll new JFrame Form
+3.4 (1:33) Add in package employee.payroll new JFrame Form
 Class Name: login
 
-3.5  
+3.5 (9:10) Add in package employee.payroll new JFrame Form 
+Class Name: MainMenu
+
+Video - Part-4
+4.1 (0:39) Copy the file bk3.jpg into the package employee.payroll.images
+
+4.2 (0:44) Add to the login form JPanel (jPanel1)
+
+4.3 (0:50) jPanel1 (right mouse button) -> Set Layout -> Null Layout
+
+4.4 (0:55) Add on the jPanel1 the jLabel5
+
+4.5 (1:06) jLabel5 properties -> icon -> select bk3.jpg
+
+4.6 (1:22) Move the jLabel1...jLabel4, jButton1, txt_combo, txt_username, txt_password into the jPanel1, before the jLabel5
+
+Video - Part-5
+5.1 (0:40) Add jMenuBar1 into JFrame
+
+Video - Part-6
+6.1 (0:26) Add into mydatabase.sqlite row:
+username: Jon
+password: 123
+division: Admin
+
+6.2 (0:55) Add into package employee.payroll -> New -> Java Class
+Class Name: Emp
+
+6.3 (1:20) Add into the MainMenu JLabel jLabel1 and jLabel2
+
+Video - Part-7
+7.1 (0:40) Insert into the class login, constructor login() this code:
+Toolkit toolkit = getToolkit();
+...
+
+Video - Part-8
+8.1 (1:00) Push the right mouse button, and select properties -> Run -> Main Class:
+
+Video - Part-9
+9.1 (0:40) Copy the file logout.png into the package employee.payroll.images
+
+9.2 (0:57) jButton1 on the MainMenu -> Properties -> icon
+
+Video - Part-10
+10.1 (0:40) Add PasswordField into login frame.
+jPasswordField1 move before jLabel5 (background image).
+
+10.2 (0:54) Delete jTextField (txt_password)
+
