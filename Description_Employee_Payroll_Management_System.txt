@@ -85,3 +85,10 @@ jPasswordField1 move before jLabel5 (background image).
 
 10.2 (0:54) Delete jTextField (txt_password)
 
+Video - Part-11
+11.1 (0:28) Add into the package employee.payroll New -> JFrameForm
+Class Name: addEmployee
+
+11.2 (0:53) Add the addEmployee jTextField1
+
+11.3 
