@@ -91,4 +91,11 @@ Class Name: addEmployee
 
 11.2 (0:53) Add the addEmployee jTextField1
 
-11.3 
+11.3 (7:36) 
+CREATE TABLE "Staff_information" ("id" INTEGER PRIMARY KEY NOT NULL, "first_name" VARCHAR, "surname" VARCHAR, "Dob" INTEGER DEFAULT(null), "Email" VARCHAR, "Telephone" VARCHAR, "Address" VARCHAR, "Department" VARCHAR, "Image" BLOB, "Gender" CHAR, "Salary" VARCHAR, "Address2" VARCHAR, "Apartment" VARCHAR, "Post_code" VARCHAR DEFAULT(null), "Designation" VARCHAR, "Status" VARCHAR, "Date_hired" VARCHAR, "job_title" VARCHAR)
+
+11.4 (8:37) Add into class addEmployee body method jButton1ActionPerformed {
+...
+}
+
+11.5 
