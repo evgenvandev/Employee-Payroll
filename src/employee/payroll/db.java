@@ -19,8 +19,8 @@ public class db {
         try{
             
              Class.forName("org.sqlite.JDBC");
-             //Connection conn = DriverManager.getConnection("jdbc:sqlite:c:\\Java\\S_saita_youtube\\Employee_Payroll_Management_System\\Employee-Payroll\\mydatabase.sqlite");
-             Connection conn = DriverManager.getConnection("jdbc:sqlite:c:\\JAVA\\S_youtube\\Employee-Payroll\\mydatabase.sqlite");
+             Connection conn = DriverManager.getConnection("jdbc:sqlite:c:\\Java\\S_saita_youtube\\Employee_Payroll_Management_System\\Employee-Payroll\\mydatabase.sqlite");
+             //Connection conn = DriverManager.getConnection("jdbc:sqlite:c:\\JAVA\\S_youtube\\Employee-Payroll\\mydatabase.sqlite");
              return conn;
              
         } catch(Exception e){
