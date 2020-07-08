@@ -98,4 +98,35 @@ CREATE TABLE "Staff_information" ("id" INTEGER PRIMARY KEY NOT NULL, "first_name
 ...
 }
 
-11.5 
+Video - Part-12
+12.1 
+
+Video - Part-13
+13.1 (0:32) Add in the form addEmployee.java JButton jButton2.
+Rename jButton2 into the Clear.
+
+13.2 (0:44) Add into the method jButton2ActionPerformed(){
+	txt_id.setText("");
+    txt_firstname.setText("");
+	...
+}
+
+Video - Part-14
+14.1 (1:00) Add in the form addEmployee.java JDesktopPane.
+
+14.2 (1:06) Add into jDesktopPane1 the JLabel.
+Rename the variable jLabel on the img.
+
+14.3 (1:31) Add in the form addEmployee.java JButton.
+Rename jButton3 into the Attach.
+
+14.4 (1:42) Add into the method jButton3ActionPerformed(){
+...
+}
+
+14.5 (1:57) Add into the addEmployee.java define variable:
+ private ImageIcon format = null;
+ String filename = null;
+ byte[] person_image = null;
+
+14.6 
